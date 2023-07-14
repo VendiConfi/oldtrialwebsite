@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <link rel="stylesheet" href="/javascript/css/form.css">
+    <body>
+     <div class="heading"><h1>Please enter the following details</h1></div>
+     <form name="MyForm" onsubmit=" return validateform() " method="post">
+        <div class="form" id="Name" >
+            Name:<input type="text" name="Pname" placeholder="Your full name " required ><b><span class="error"> </span></b>
+        </div>
+        <div class="form" id="Number" >
+        Ph Number: <input type="text" name="Pnumber"  placeholder="Home " required><b><span class="error"> </span></b>
+        </div>
+        <div class="form" id="Id" >
+            Email Id: <input type="text" name="PId"  placeholder="Official Email-ID" required><b><span class="error"> </span></b>
+        </div>
+        <div class="form" id="DOB" >
+            Date of Birth: <input type="date" name="PDOB" required ><b><span class="error"> </span></b>
+        </div>
+        <div class="form" id="address" >
+            address: <input type="text" name="Padress"  ><b><span class="error" > </span></b>
+        </div>
+        <div class="form" id="PWD" >
+            Password: <input type="text" name="PWD"  placeholder="At least 6 digit " required><b><span class="error"> </span></b>
+        </div>
+        <div class="form" id="CPWD" >
+            Confirm Password: <input typE="text" name="CPWD" required><b><span class="error"> </span></b>
+            <br><br><input class="button " type="submit" value="submit ">
+        </div>
+       
+
+    </form>
+    <script src="/javascript/js/form.js"></script>
+    </body>
