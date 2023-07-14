@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+}
+nav{
+    background-color: black;
+    size: 80px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+nav ul{
+    overflow: auto;
+    margin-left: 10px ;
+    margin-right: 0px ;
+    
+}
+
+nav ul li{
+
+    float:left;
+    margin:20px;
+    margin-inline: 50px;
+    
+
+}
+nav ul li a{
+    color: white;
+
+}
+.Name{
+    color: white;
+
+}
+nav input{
+    border-color: white;
+    border-width: 5px;
+    border-style:groove;
+    float:right;
+    margin-top: 12px;
+    
+    margin-right: 10px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 20px;
+    
+}
+
+body{
+    background-color:darkmagenta;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 45%;
+    left: 50%;
+    overflow: hidden;
+    /* border: 10px solid black; */
+    /* border-; */
+    box-shadow: -1px 5px 15px black;
+}
+
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+.topic{
+    margin-top: 700px;
+}
